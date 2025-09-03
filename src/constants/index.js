@@ -63,14 +63,14 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Blog",
+    url: "https://www.linkedin.com/pulse/why-bitcoin-could-get-boost-soon-even-just-dropped-pipsy-hussle-yeode",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Public Journal",
+    url: "https://t.me/nawiricapital",
     onlyMobile: true,
   },
 ];
