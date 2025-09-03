@@ -29,4 +29,10 @@
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
   }
+  {
+  "homepage": "https://martin254.github.io/Pipsyhussle",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }
