@@ -46,21 +46,13 @@ export const navigation = [
     title: "About Us",
     url: "#features",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+ 
   {
     id: "2",
     title: "Products",
     url: "#how-to-use",
   },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+  
   {
     id: "4",
     title: "Blog",
@@ -74,6 +66,7 @@ export const navigation = [
     onlyMobile: true,
   },
 ];
+
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
