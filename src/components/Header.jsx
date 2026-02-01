@@ -74,7 +74,7 @@ const Header = () => {
           Blog
         </a>
         <Button className="hidden lg:flex" href="https://t.me/nawiricapital">
-          Pubic Journal
+          Public Journal
         </Button>
 
         <Button
