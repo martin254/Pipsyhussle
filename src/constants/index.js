@@ -1,3 +1,7 @@
+import benefitCard1 from "../assets/benefits/card-1.svg";
+import benefitCard2 from "../assets/benefits/card-2.svg";
+import benefitCard3 from "../assets/benefits/card-3.svg";
+
 import {
   benefitIcon1,
   fundingpips,
@@ -66,7 +70,6 @@ export const navigation = [
     onlyMobile: true,
   },
 ];
-
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
@@ -241,7 +244,7 @@ export const benefits = [
     id: "0",
     title: "AI & Innovation",
     text: "Building powerful AI tools and trading tech designed specifically to give retail traders an edge in today’s fast-moving markets.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: benefitCard1,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -249,7 +252,7 @@ export const benefits = [
     id: "1",
     title: "Prop Firm Trading",
     text: "We partner with prop firms, pass evaluations, and manage capital effectively — turning trading skill into scalable opportunities.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: benefitCard2,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -258,7 +261,7 @@ export const benefits = [
     id: "2",
     title: "Education & Training",
     text: "Making algorithmic trading and AI in finance simple and accessible, so every trader can grow with the future of markets",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: benefitCard3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
