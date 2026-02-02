@@ -3,31 +3,40 @@ import { companyLogos } from "../constants";
 const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
-      <h5 className="tagline mb-10 text-center text-n-1/50 tracking-widest uppercase text-sm">
+      <h5 className="tagline mb-6 text-center text-n-1/50">
         Prop firm Trading at
       </h5>
-      
-      <ul className="flex flex-wrap items-center justify-center gap-10">
-        {companyLogos.map((logo, index) => (
-          <li
-            className="group flex items-center justify-center h-[8.5rem] w-[10rem] transition-all duration-500 hover:scale-110 cursor-pointer"
-            key={index}
-          >
-            {/* The Logo */}
-            <img 
-              src={logo} 
-              width={134} 
-              height={28} 
-              alt={logo} 
-              // Starts grayscale and dim, becomes colorful and bright on hover
-              className="opacity-50 grayscale transition-all duration-500 group-hover:opacity-100 group-hover:grayscale-0 mix-blend-lighten" 
-            />
-            
-            {/* Optional: A subtle glow behind the logo on hover */}
-            <div className="absolute inset-0 bg-white/5 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
-          </li>
-        ))}
-      </ul>
+
+      {/* Container with Mask for Fade Effect */}
+      <div className="relative flex overflow-hidden py-5 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]">
+        
+        {/* The Animated Track */}
+        <div className="flex w-max animate-scroll hover:[animation-play-state:paused]">
+          
+          {/* Render logos TWICE for seamless loop */}
+          {[...companyLogos, ...companyLogos].map((item, index) => (
+            <div
+              className="flex items-center justify-center mx-8 w-[10rem] shrink-0"
+              key={index}
+            >
+              <a 
+                href={item.url} 
+                target="_blank" 
+                rel="noreferrer"
+                className="flex items-center justify-center w-full h-full transition-opacity duration-300 hover:opacity-100 opacity-50"
+              >
+                <img
+                  src={item.image}
+                  width={134}
+                  height={28}
+                  alt={item.title || "Partner Logo"}
+                  className="grayscale transition-all duration-300 hover:grayscale-0"
+                />
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
