@@ -10,7 +10,7 @@ import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./finotive.png";
-import ftmo from "./ftmo.svg";
+import ftmo from "./ftmowhite.png";
 import five from "./fivebg.png";
 import fundingpips from "./fundingpips.jpg";
 import homeSmile from "./home-smile.svg";
