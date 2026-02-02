@@ -1,6 +1,4 @@
-import benefitCard1 from "../assets/benefits/card-1.svg";
-import benefitCard2 from "../assets/benefits/card-2.svg";
-import benefitCard3 from "../assets/benefits/card-3.svg";
+
 
 import {
   benefitIcon1,
