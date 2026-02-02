@@ -71,6 +71,17 @@ export default {
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
+      // 👇 ADDED ANIMATION CONFIG HERE
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 25s linear infinite',
+      },
+      // 👆 END ADDED CONFIG
     },
   },
   plugins: [
