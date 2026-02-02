@@ -37,7 +37,6 @@ const Hero = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
            Pipsy combines hands-on trading expertise with cutting-edge AI technology to empower everyday investors and traders in retail financial markets.
-
           </p>
           <Button href="https://docs.google.com/forms/d/e/1FAIpQLScrqZp-NM92BOqKdmmm8tVaYIwdY1iBRrrgLJzbayCPh6aadQ/viewform?usp=sharing&ouid=101945323099356235426" white>
             Join AlgoLite Waitlist
@@ -58,10 +57,6 @@ const Hero = () => {
                 />
 
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
-
-                
-
-                
               </div>
             </div>
 
@@ -76,11 +71,10 @@ const Hero = () => {
               alt="hero"
             />
           </div>
-
-         
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* ✅ FIXED LINE BELOW: Removed 'hidden' and 'lg:block' */}
+        <CompanyLogos className="relative z-10 mt-20" />
       </div>
 
       <BottomLine />
