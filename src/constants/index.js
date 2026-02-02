@@ -41,6 +41,9 @@ import {
   ftmo,
   five,
   fundingpipz,
+  benefitCard1,
+  benefitCard2,
+  benefitCard3,
 } from "../assets";
 
 export const navigation = [
