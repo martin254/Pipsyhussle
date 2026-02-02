@@ -42,6 +42,7 @@ import {
   yourlogo,
   ftmo,
   five,
+  fundingpipz,
 } from "../assets";
 
 export const navigation = [
@@ -75,7 +76,32 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, ftmo, five, fundingpips, yourlogo];
+// constants/index.js
+
+export const companyLogos = [
+  {
+    image: yourlogo, 
+    url: "https://finotivefunding.com/", // Replace with your actual URL
+    title: "Pipsy" 
+  },
+  {
+    image: ftmo, 
+    url: "https://ftmo.com", 
+    title: "FTMO"
+  },
+  {
+    image: five, 
+    url: "https://the5ers.com", 
+    title: "The 5%ers"
+  },
+  {
+    image: fundingpipz, 
+    url: "https://www.fundingpips.com/", 
+    title: "Funding Pips"
+  },
+  
+  // Add any other logos here...
+];
 
 export const brainwaveServices = [
   "Journals your trades & emotions with smart prompts",
