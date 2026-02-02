@@ -24,6 +24,7 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import fundingpipz from "./fundingpipz.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -156,4 +157,5 @@ export {
   instagram,
   telegram,
   twitter,
+  fundingpipz,
 };
