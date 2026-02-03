@@ -39,7 +39,7 @@ const Hero = () => {
            Pipsy combines hands-on trading expertise with cutting-edge AI technology to empower everyday investors and traders in retail financial markets.
           </p>
           <Button href="https://forms.gle/2GWgyxDxAoLhuMEq6" white>
-            Sign Up to Out Bootcamp
+            Sign Up to Our Bootcamp
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
