@@ -38,8 +38,8 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
            Pipsy combines hands-on trading expertise with cutting-edge AI technology to empower everyday investors and traders in retail financial markets.
           </p>
-          <Button href="https://docs.google.com/forms/d/e/1FAIpQLScrqZp-NM92BOqKdmmm8tVaYIwdY1iBRrrgLJzbayCPh6aadQ/viewform?usp=sharing&ouid=101945323099356235426" white>
-            Join AlgoLite Waitlist
+          <Button href="https://forms.gle/2GWgyxDxAoLhuMEq6" white>
+            Sign Up to Out Bootcamp
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
